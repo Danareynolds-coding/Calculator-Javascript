@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(249, 245, 245, 0.479);
+}
+button{
+    width: 80px;
+    height: 60px ;
+    background: hsl(340, 38%, 94%);
+    border-radius: 12px;
+    border: none;
+    cursor:pointer;
+    outline-offset: 4px;
+    font-size: 2rem;
+    font-weight:700;
+    color:hsl(340, 96%, 27%);
+    margin-bottom: 3px;
+}
+.operation{
+    background-color: hsl(251, 7%, 29%);
+    color:white;
+
+    }
+.operator:hover{
+     background-color: hsl(251, 7%, 50%);
+     color:white;
+
+}
+.operator:active{
+     background-color: hsl(251, 7%, 98%);
+     color:black;
+}
+button:hover{
+    background-color:hsl(0, 2%, 26%);
+}
+button:active{
+    background-color: hsl(0, 20%, 99%);
+}
+#keys{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-template-rows:repeat ( 4, 1fr);
+    gap:3px;
+}
+#calculator{
+    background-color: rgb(203, 195, 195);
+    border-radius: 8%;
+    max-width:360px;
+    text-align: center;
+    padding:4px;
+    overflow:hidden;
+    outline-offset:4px;
+}
+.delete{
+    font-size:small;
+}
+#display{
+    color:hsl(251, 7%, 29%);
+    text-align: left;
+    width: 80%;
+    font-size: 3rem;
+    margin:7px;
+    padding:4Px;
+    border-radius:20%;
+    background-color:  rgb(246, 239, 239);
+}
+h4{
+    font-weight:bolder;
+  color:hsl(340, 88%, 23%); 
+}
